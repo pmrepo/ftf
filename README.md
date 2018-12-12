@@ -4,10 +4,6 @@ Find current open food trucks in San Francisco using Socrata API at https://data
 Compiled and tested on MacOS with Java version '9.0.1'
 
 
-To compile:
+To compile:  javac -d bin -cp lib/*: src/com/pm/ftf/*.java
 
-javac -d bin -cp lib/*: src/com/pm/ftf/*.java
-
-To run:
-
-java -cp bin:lib/* com.pm.ftf.FoodTruckFinder
+To run:  java -cp bin:lib/* com.pm.ftf.FoodTruckFinder
